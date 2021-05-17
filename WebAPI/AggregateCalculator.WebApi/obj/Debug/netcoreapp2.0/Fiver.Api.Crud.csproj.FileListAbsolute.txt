@@ -1,0 +1,11 @@
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\bin\Debug\netcoreapp2.0\Fiver.Api.Crud.deps.json
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\bin\Debug\netcoreapp2.0\Fiver.Api.Crud.runtimeconfig.json
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\bin\Debug\netcoreapp2.0\Fiver.Api.Crud.runtimeconfig.dev.json
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\bin\Debug\netcoreapp2.0\Fiver.Api.Crud.dll
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\bin\Debug\netcoreapp2.0\Fiver.Api.Crud.pdb
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.AssemblyInfoInputs.cache
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.AssemblyInfo.cs
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.csproj.CoreCompileInputs.cache
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.dll
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.pdb
+C:\Pradeep\Samples\Fiver.Api.Crud-master\Fiver.Api.Crud\obj\Debug\netcoreapp2.0\Fiver.Api.Crud.genruntimeconfig.cache

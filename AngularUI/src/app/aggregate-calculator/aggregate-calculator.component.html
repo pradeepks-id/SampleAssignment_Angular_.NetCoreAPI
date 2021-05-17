@@ -1,0 +1,55 @@
+<div class="container">  
+  <hr>  
+  <div class="container">
+    <div class="row">
+        <table class="table table-striped table-bordered table-striped table-bordered" style="width:40%">
+        <caption><i>Add/Remove Inputs dynamically for aggregate calculation</i></caption>
+            <thead>
+                <tr>
+                    <th>User Inputs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let field of fieldArray; let i = index">
+                    <td>
+                        <div class="input-group">
+                          <table> 
+                          <tr>
+                          <td>
+                           <button (click)="deleteFieldValue(i)" class="btn btn-danger" type="button">X</button>
+                          </td>
+                          <td>
+                           <input [(ngModel)]="field.name" class="form-control" type="number" (keypress)="numericOnly($event)" name="{{field.name}}">
+                          </td>
+                          </tr>
+                          </table>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <button *ngIf="fieldArray.length <= 14" class="btn btn-success btn-sm" type="button" (click)="addFieldValue()" style="margin-right:10px">+ Add User Inputs</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>
+  <input type="button" id="btnCalculate"  class="btn btn-primary" (click)="loadResultData()" data-toggle="modal" data-target="#myModal" value="Calculate">
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-primary">Aggregate Calculation Result</h4>
+        </div>
+        <div class="modal-body">
+          <app-display-result #dispresult (nameEvent)="RefreshData($event)"></app-display-result>
+        </div>
+        <div class="modal-footer">
+          <button type="button" #closeBtn (nameEvent)="ClearInputData($event)" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div> 

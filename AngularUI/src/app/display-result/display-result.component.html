@@ -1,0 +1,36 @@
+
+
+ 
+ 
+      <h1 *ngIf="cleardata"></h1>
+      <table class="table table-striped table-bordered" *ngIf="cleardata"><thead>
+        <tr>
+          <th scope="col" style="color: red;">User Input Validation Error</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="col"><label [innerHTML]="message"></label></td>         
+        </tr>
+      </tbody>
+      </table>
+      <table class="table" *ngIf="!cleardata">
+        <thead>
+          <tr>
+            <th scope="col">Input Values</th>
+            <th scope="col">Min Value</th>
+            <th scope="col">Max Value</th>
+            <th scope="col">Average Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr [(ngModel)]="objcalcresult">
+            <td scope="col">{{objcalcresult.inputvalues}}</td>
+            <td scope="col">{{objcalcresult.minvalue}}</td>
+            <td scope="col">{{objcalcresult.maxvalue}}</td>
+            <td scope="col">{{objcalcresult.averagevalue}}</td>            
+          </tr>
+        </tbody>
+      </table>
+      <button style="display:none" type="button" #closeBtn  class="btn btn-default"   data-dismiss="modal">Close</button>
+    
